@@ -1,0 +1,15 @@
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sku-android="http://schemas.android.com/apk/res/kr.ac.skuniv.myapp">
+    <item
+        sku-android:state_status_information="true"
+        android:color="#FFFFFF" />
+    <item
+        sku-android:state_status_warning="true"
+        android:color="#231F20" />
+    <item
+        sku-android:state_status_error="true"
+        android:color="#FFFFFF" />
+    <item 
+        android:color="#FFFFFF" />	
+</selector>

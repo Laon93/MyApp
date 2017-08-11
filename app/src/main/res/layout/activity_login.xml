@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_splash">
+    
+	<LinearLayout
+    	android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+        android:layout_marginTop="190dp"
+	   	android:layout_centerHorizontal="true"
+	   	android:gravity="center">
+
+		<EditText
+			android:id="@+id/editTextEmail"
+			android:layout_width="match_parent"
+			android:layout_height="45dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginLeft="20dp"
+			android:layout_marginRight="20dp"
+			android:background="@drawable/bg_edittext_login"
+			android:textColorHint="#777777"
+			android:hint="이메일"
+			android:inputType="text"
+			android:textSize="14sp" />
+
+		<EditText
+			android:id="@+id/editTextPassword"
+			android:layout_width="match_parent"
+			android:layout_height="45dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginLeft="20dp"
+			android:layout_marginRight="20dp"
+			android:background="@drawable/bg_edittext_login"
+			android:textColorHint="#777777"
+			android:hint="비밀번호(공백을 제외한 4자 이상)"
+			android:inputType="textPassword"
+			android:textSize="14sp" />
+		
+		<Button
+			android:id="@+id/buttonLogin"
+			android:layout_width="match_parent"
+			android:layout_height="45dp"
+			android:layout_marginTop="15dp"
+			android:layout_marginLeft="20dp"
+			android:layout_marginRight="20dp"
+			android:background="@drawable/bg_darkblue_btn"
+			android:text="로그인"
+			android:textColor="#ffffff"
+			android:textSize="15sp"
+			android:textStyle="bold"
+			android:visibility="gone"/>
+		<LinearLayout
+		    android:id="@+id/layout_progress"
+	    	android:layout_width="match_parent"
+			android:layout_height="45dp"
+			android:layout_marginTop="15dp"
+		    android:orientation="vertical"
+		   	android:gravity="center"		   	
+			android:visibility="gone">
+		   	<ProgressBar
+		       	android:layout_width="32dp"
+		       	android:layout_height="32dp"
+		       	android:indeterminateDrawable="@drawable/progress_spinner" />
+		</LinearLayout>
+				    
+		<TextView
+	       	android:id="@+id/tv_signup"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:gravity="center_horizontal"
+	        android:layout_marginTop="10dp"
+	       	android:padding="5dp"
+	       	android:text="&lt;u>가입하기&lt;/u>"
+	       	android:textColor="#FFFFFF"
+	       	android:textColorLink="#FFFFFF"
+	       	android:textSize="14sp"/>
+				
+	</LinearLayout>
+
+			
+</RelativeLayout>

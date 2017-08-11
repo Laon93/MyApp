@@ -1,0 +1,17 @@
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sku-android="http://schemas.android.com/apk/res/kr.ac.skuniv.myapp">
+    
+    <item
+        sku-android:state_status_information="true"
+        android:drawable="@drawable/bg_statusbar_information" />
+    <item
+        sku-android:state_status_warning="true"
+        android:drawable="@drawable/bg_statusbar_warning" />
+    <item
+        sku-android:state_status_error="true"
+        android:drawable="@drawable/bg_statusbar_error" />
+    <item 
+        android:drawable="@drawable/bg_statusbar_normal" />
+    
+ </selector>

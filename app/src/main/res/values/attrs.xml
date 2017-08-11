@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="BarStatus">
+        <attr name="state_status_information" format="boolean"/>
+        <attr name="state_status_warning" format="boolean"/>
+        <attr name="state_status_error" format="boolean"/>
+	</declare-styleable>
+</resources>
